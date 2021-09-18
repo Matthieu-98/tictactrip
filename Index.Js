@@ -8,8 +8,6 @@ function transformTextToTextjustify (text){
     return list.join('\n');
 }
 
-text = "im only happy when it's rains im only happy when it's rains im only happy when it's rains im only happy when it's rains im only happy when it's rains im only happy when it's rains im only happy when it's rains";
-transformTextToTextjustify (text)
-transformedText = transformTextToTextjustify (text);
-console.log('voici le texte justifié',transformedText)
-
+module.exports = {
+    transformTextToTextjustify: transformTextToTextjustify
+};

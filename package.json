@@ -1,0 +1,22 @@
+{
+  "name": "tictactrip",
+  "version": "1.0.0",
+  "description": "text",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.9.0"
+  },
+  "scripts": {"test": "jasmine"},
+    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthieu-98/tictactrip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthieu-98/tictactrip/issues"
+  },
+  "homepage": "https://github.com/Matthieu-98/tictactrip#readme"
+}
