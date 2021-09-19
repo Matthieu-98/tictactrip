@@ -12,7 +12,7 @@
     "jasmine": "^3.9.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./app/index.js",
     "test": "jasmine"
   },
   "repository": {
