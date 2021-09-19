@@ -6,7 +6,7 @@ var randtoken = require('rand-token');
 var tokens = { };
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
-    res.send('hello world');
+    res.send('exercice');
 });
 app.post('/api/justify', function (req, res) {
     console.log("request : ");
