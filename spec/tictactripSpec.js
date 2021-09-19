@@ -1,4 +1,4 @@
-const utils = require("../index.js");
+const utils = require("../fonction.js");
 describe("String Utils", function () {
     it("le texte devrait être justifié", function () {
         text = "azerty"
