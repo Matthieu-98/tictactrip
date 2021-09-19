@@ -12,16 +12,25 @@
     "jasmine": "^3.9.0"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "jasmine"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Matthieu-98/tictactrip.git"
   },
-  "author": "",
+  "author": "Mohimbouabeka Matthieu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Matthieu-98/tictactrip/issues"
   },
-  "homepage": "https://github.com/Matthieu-98/tictactrip#readme"
+  "homepage": "https://github.com/Matthieu-98/tictactrip#readme",
+  "engines": {
+    "node": "14.x"
+  },
+
+  "keywords": [
+    "tictactrip",
+    "heroku"
+  ]
 }
