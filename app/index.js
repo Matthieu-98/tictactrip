@@ -25,5 +25,6 @@ app.post('/api/token', function (req, res) {
 });
 
 console.log("démarage de l'api rest ");
-app.listen(80);
+const port = process.env.PORT || 3000;
+app.listen(port);
 
