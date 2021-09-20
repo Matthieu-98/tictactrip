@@ -1,0 +1,43 @@
+La longueur des lignes du texte justifié doit être de 80 caractères.
+
+1. Mise ne place de l'environnement Node.JS 
+
+2. Création d'un repository sur github
+
+commandes git utilisées : git status, git add, git commit, git push, git branch. 
+
+3. Utilisation du gestionnaire de librarie npm
+
+commmandes npm utilisée : npm init, npm install, npm test
+
+4. mise en place d'un test unitaire avec jasmine
+https://jasmine.github.io/pages/getting_started.html
+
+L’endpoint doit être de la forme /api/justify et doit retourner un texte justifié suite à une requête POST avec un body de ContentType text/plain
+
+5. Mise en place de l'api rest
+
+- 5.1 Installation de express NodeJs
+- 5.2 Mise en place des appels Rest
+
+https://codeforgeek.com/handle-get-post-request-express-4/
+https://stackoverflow.com/questions/11625519/how-to-access-the-request-body-when-posting-using-node-js-and-express 
+
+"app.get('/', function (req, res)"
+"app.post('/api/justify', function (req, res)"
+corps du message Json à envoyer
+{"text":"message à envoyer"}
+
+- 5.3 utilisation d'un client api rest 
+yet another rest client (plugin chrome)
+notions : Json, api rest, protocole Http 
+
+6. déploiment de l'API
+https://fierce-earth-54876.herokuapp.com/ | https://git.heroku.com/fierce-earth-54876.git
+
+
+
+https://devcenter.heroku.com/articles/deploying-nodejs
+
+Conclusion : tout n'a pas été fait, l'API justiant le texte semble fonctionner néanmoins la limite des 80 000 caractères
+ainsi que le message d'erreur n'ont pas étés établis par manque de temps. 
