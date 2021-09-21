@@ -25,8 +25,11 @@ https://stackoverflow.com/questions/11625519/how-to-access-the-request-body-when
 
 "app.get('/', function (req, res)"
 "app.post('/api/justify', function (req, res)"
+"app.post('/api/token', function (req, res)"
+
 corps du message Json à envoyer
-{"text":"message à envoyer"}
+
+{"text":"message à justifier"}
 
 - 5.3 utilisation d'un client api rest 
 yet another rest client (plugin chrome)
